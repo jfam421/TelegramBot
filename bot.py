@@ -1,7 +1,6 @@
 import requests
 import misc
 from time import sleep
-import telebot
 
 token = misc.token
 
