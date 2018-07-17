@@ -53,6 +53,8 @@ def main():
             
             if "/btc" in text:
                 send_message(chat_id, "what do u want on dinner")
+            elif "/rrr" in text:
+                send_message(chat_id, "Fuck u!")
         else:
             continue
         sleep(2)
