@@ -2,6 +2,7 @@ import requests
 import misc
 from time import sleep
 
+
 token = misc.token
 
 URL = "https://api.telegram.org/bot" + token + "/"
